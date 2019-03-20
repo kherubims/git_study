@@ -5,7 +5,7 @@ GIT Study
 
 ## 1. MD 사용하기
 하단 컨텐츠 참조
-[참조 링크]: https://gist.github.com/ihoneymon/652be052a0727ad59601  
+[관련 참조]<https://gist.github.com/ihoneymon/652be052a0727ad59601>  
 하이픈 테스트
 
 ## 2. Git Config Error
@@ -46,5 +46,6 @@ error: could not lock config file C:/Users/*****/.gitconfig: File exists
 (base) D:\PythonEnv\project.git\git_study>rm C:/Users/*****/.gitconfig.lock
 </pre><br>
 
-[참조 링크]: https://stackoverflow.com/questions/25671785/git-fatal-unable-to-auto-detect-email-address
+[관련 참조]<https://stackoverflow.com/questions/25671785/git-fatal-unable-to-auto-detect-email-address>
 
+# 참조링크 수정 테스트
