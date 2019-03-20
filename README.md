@@ -1,48 +1,48 @@
 GIT Study
 =========
 
-#### 2019.03.20
+# 2019.03.20
 
-# 1. MD 사용하기
--
-[참조 링크](https://gist.github.com/ihoneymon/652be052a0727ad59601#22-blockquote)
+## 1. MD 사용하기
+- 하단 컨텐츠 참조
+[참조 링크]:https://gist.github.com/ihoneymon/652be052a0727ad59601
+하이픈 테스트
 
-
-
-# 2. Git Config Error
-① git 커밋시 config 관련 오류 발생하는 경우
+## 2. Git Config Error
+① git 처음 설정후 커밋시 config 관련 오류 발생하는 경우
 <pre>
-	(base) D:\PythonEnv\project.git\git_study>git commit -m "[ADD] 첫번째 파일 추가 'README.md'"
+(base) D:\PythonEnv\project.git\git_study>git commit -m "[ADD] 첫번째 파일 추가 'README.md'"
 
-	*** Please tell me who you are.
+*** Please tell me who you are.
 
-	Run
+Run
 
-	  git config --global user.email "you@example.com"
-	  git config --global user.name "Your Name"
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
 
-	to set your account's default identity.
-	Omit --global to set the identity only in this repository.
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
 
-	fatal: unable to auto-detect email address (got 'KMS@KMS-HP.(none)')
+fatal: unable to auto-detect email address (got '*****@*****-HP.(none)')
 </pre>
 
-② 아래와 같이 수행
+② 아래와 같이 이메일 및 사용자 이름 설정 추가
 <pre>
-	(base) D:\PythonEnv\project.git\git_study>git config --global user.email "******@gmail.com"
-	(base) D:\PythonEnv\project.git\git_study>git config --global user.name "****"
+(base) D:\PythonEnv\project.git\git_study>git config --global user.email "******@gmail.com"
+(base) D:\PythonEnv\project.git\git_study>git config --global user.name "****"
 </pre>
 
-③ config 설정 도중 오류 발생하는 경우,
-'C:\Users\계정아이디\.gitconfig.lock' 파일 삭제필요
+③ config 설정 도중 오류 발생하는 경우,  
+'C:\Users\계정아이디\.gitconfig.lock' 파일 삭제필요,  
 삭제 커맨드가 안되는 경우 관리자 권한 필요
+개행 테스트  
 <pre>
-	(base) D:\PythonEnv\project.git\git_study>git config --global user.email "kherubims@gmail.com"
-	error: could not lock config file C:/Users/KMS/.gitconfig: File exists	
+(base) D:\PythonEnv\project.git\git_study>git config --global user.email "*******@gmail.com"
+error: could not lock config file C:/Users/*****/.gitconfig: File exists	
 </pre>
 
 <pre>
-	(base) D:\PythonEnv\project.git\git_study>rm C:/Users/KMS/.gitconfig.lock
+	(base) D:\PythonEnv\project.git\git_study>rm C:/Users/*****/.gitconfig.lock
 </pre>
 
-[참조 링크](https://stackoverflow.com/questions/25671785/git-fatal-unable-to-auto-detect-email-address)
+[참조 링크]:https://stackoverflow.com/questions/25671785/git-fatal-unable-to-auto-detect-email-address
