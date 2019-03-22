@@ -7,13 +7,17 @@ GIT Study
 'alias' command로 명령어 등록시 console 창이 꺼지면 등록된 alias가 사라지는것을 bashrc에 등록하여 방지  
 '.bashrc'를 편집기로 편집  
 <pre>
-$ sudo vi .bashrc
+$ sudo vi ~/.bashrc
 </pre> 
 
 '.bashrc'에 하단 라인 추가
 <pre>
 e.g)  
 alias gloga="git log --all --decorate --oneline --graph"
+</pre>
+'.bashrc' 적용
+<pre>
+$ sudo source ~/.bashrc
 </pre>
 
 # 2019.03.20
