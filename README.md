@@ -1,6 +1,20 @@
 GIT Study
 =========
 
+# 2019.03.22
+
+## 1. git commit message 수정
+마지막 커밋 메세지 수정
+<pre>
+$ git commit --amend -m "[FIX] edit commit message"
+
+$ git push -f
+</pre>
+
+<pre>
+</pre>  
+[관련 참조] <http://tech.javacafe.io/2018/03/01/how-to-change-git-commit-message/>
+
 # 2019.03.21
 
 ## 1. Ubuntu alias 명령어 환경변수에 등록하기
