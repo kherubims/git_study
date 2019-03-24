@@ -16,9 +16,9 @@ DB적재를 위해서는 수집되는 자원과 의미 연관관계 생성을 �
 4. Argument Classfication(AC) - CTI Entity Recognition(resource)
 </pre>
 
-[관련 참조] <https://ratsgo.github.io/korean%20linguistics/2017/06/04/thetarole/>
-[관련 참조] <https://ratsgo.github.io/korean%20linguistics/2017/07/19/valency/>
-[관련 참조] <http://kiise.or.kr/e_journal/2015/2/JOK/pdf/10.pdf>
+[관련 참조] <https://ratsgo.github.io/korean%20linguistics/2017/06/04/thetarole/>  
+[관련 참조] <https://ratsgo.github.io/korean%20linguistics/2017/07/19/valency/>  
+[관련 참조] <http://kiise.or.kr/e_journal/2015/2/JOK/pdf/10.pdf>  
 
 
 # 2019.03.22
