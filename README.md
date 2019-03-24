@@ -6,6 +6,7 @@ TIL with Git Study
 - NLP 의미역 결정 과정   
 서술어에 속하는 논항들 사이의 의미 관계 결정, DB적재를 위해서는 수집되는 자원과 의미 연관관계 생성을 위해서 서술어(=의미 연관관계 명) 및 논항(해당 자원 개체)에 대해서 사전적 정의가 필요  
 <pre>
+(Identification - Classification)
 1. Predicate Identification(PI)
 2. Predicate Classification(PC)
 
@@ -13,17 +14,18 @@ TIL with Git Study
 4. Argument Classfication(AC) - CTI Entity Recognition(resource)
 </pre>
 
-[관련 참조] <https://ratsgo.github.io/korean%20linguistics/2017/06/04/thetarole/>  
-[관련 참조] <https://ratsgo.github.io/korean%20linguistics/2017/07/19/valency/>  
-[관련 참조] <http://kiise.or.kr/e_journal/2015/2/JOK/pdf/10.pdf>  
+[관련 참조: 한국어의 의미역] <https://ratsgo.github.io/korean%20linguistics/2017/06/04/thetarole/>  
+[관련 참조: 한국어 서술어의 논항과 자릿수] <https://ratsgo.github.io/korean%20linguistics/2017/07/19/valency/>  
+[관련 참조: Structural SVM 기반 한국어 의미역 결정] <http://kiise.or.kr/e_journal/2015/2/JOK/pdf/10.pdf>  
 
 
 # 2019.03.22
 
 - git commit message 수정  
-마지막 커밋 메세지 수정
+
 <pre>
-$ git commit --amend -m "[FIX] edit commit message"
+# 마지막 커밋 메세지 수정
+$ git commit --amend -m "[FIX] edit commit message"  
 
 $ git push -f
 </pre>
@@ -36,6 +38,7 @@ $ git push -f
 'alias' command로 명령어 등록시 console 창이 꺼지면 등록된 alias가 사라지는것을 bashrc에 등록하여 방지  
 '.bashrc'를 편집기로 편집  
 <pre>
+
 $ sudo vi ~/.bashrc
 </pre> 
 
@@ -94,4 +97,4 @@ error: could not lock config file C:/Users/*****/.gitconfig: File exists
 (base) D:\PythonEnv\project.git\git_study>rm C:/Users/*****/.gitconfig.lock
 </pre>  
 
-[관련 참조] <https://stackoverflow.com/questions/25671785/git-fatal-unable-to-auto-detect-email-address>
+[관련 참조] <https://stackoverflow.com/questions/25671785/git-fatal-unable-to-auto-detect-email-addressu>
