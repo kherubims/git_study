@@ -1,5 +1,56 @@
 TIL with Git Study
 =========
+# 2019.03.24
+- Ubuntu git 사용시 기본 에디터 변경
+<pre>
+// vi 또는 vim 사용시
+$ git config --global core.editor "vim"
+
+// 추가 설정 필요
+$ sudo update-alternatives --config editor
+</pre>
+
+- git commit message 수정2(with 'git rebase -i')  
+
+※ 여러사람과 함께 작업하는 공간에서 사용을 권하지 않음
+<pre>
+// 명령어를 통해 최근 3개의 커밋을 rebase
+$ git rebase -i HEAD~3  
+  
+// 변경할 내용을 'pick' 에서 'edit' 으로 수정 후 저장 & 종료
+pick 5367a7d [FIX] MD파일 수정 테스트 'README.md'
+edit 33ed978 [FIX] MD파일 수정 테스트2 'README.md'
+pick c39737f [FIX] MD파일 수정 테스트3 'README.md'
+</pre>
+
+<pre>
+// 수정할 내용 변경
+$ git commit -amend
+
+// e.g)
+[FIX] MD파일 수정 테스트7 'README.md'
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Sun Mar 24 22:42:42 2019 +0900
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#       modified:   README.md
+
+</pre>
+
+<pre>
+// rebase continue 수행 및 push
+$ git rebase --continue
+$ git push -f
+
+// 수정할 commit 이력이 추가로 더 있다면 'git commit -amend'로 계속 수정(반복)
+$ git commit -amend
+</pre>
 
 # 2019.03.23
 
