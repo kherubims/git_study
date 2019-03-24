@@ -1,5 +1,25 @@
-GIT Study
+TIL with Git Study
 =========
+
+# 2019.03.23
+
+## 1. 의미역 결정 과정  
+서술어에 속하는 논항들 사이의 의미 관계 결정,  
+DB적재를 위해서는 수집되는 자원과 의미 연관관계 생성을 위해서  
+서술어(=의미 연관관계 명) 및 논항(해당 자원 개체)에 대해서 사전적 정의가 필요  
+
+<pre>
+1. Predicate Identification(PI)
+2. Predicate Classification(PC)
+
+3. Argument Identification(AI)
+4. Argument Classfication(AC) - CTI Entity Recognition(resource)
+</pre>
+
+[관련 참조] <https://ratsgo.github.io/korean%20linguistics/2017/06/04/thetarole/>
+[관련 참조] <https://ratsgo.github.io/korean%20linguistics/2017/07/19/valency/>
+[관련 참조] <http://kiise.or.kr/e_journal/2015/2/JOK/pdf/10.pdf>
+
 
 # 2019.03.22
 
