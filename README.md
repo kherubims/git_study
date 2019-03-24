@@ -23,9 +23,8 @@ TIL with Git Study
 
 - git commit message 수정  
 <pre>
-# 마지막 커밋 메세지 수정
+// 마지막 커밋 메세지 수정
 $ git commit --amend -m "[FIX] edit commit message"  
-
 $ git push -f
 </pre>
 
@@ -35,28 +34,28 @@ $ git push -f
 
 - Ubuntu alias 명령어 환경변수에 등록하기  
 <pre>
-# 'alias' 명령어 등록시 console 창이 꺼지면 등록된 alias가 사라지는 것을 위해 bash 환경변수로 등록
-# '~/.bashrc' 편집
+// 'alias' 명령어 등록시 console 창이 꺼지면 등록된 alias가 사라지는 것을 위해 bash 환경변수로 등록
+// '~/.bashrc' 편집
 $ sudo vi ~/.bashrc
 </pre>   
   
 <pre>
-# '~/.bashrc' 하단 라인 추가  
+// '~/.bashrc' 하단 라인 추가  
 alias gloga="git log --all --decorate --oneline --graph"
 </pre>  
   
 <pre>
-# '~/.bashrc' 적용
+// '~/.bashrc' 적용
 $ sudo source ~/.bashrc
 </pre>
 
 # 2019.03.20
 
 - MD 사용하기  
-
 [관련 참조]  <https://gist.github.com/ihoneymon/652be052a0727ad59601>  
 
 - Git Config Error  
+
 ① git 처음 설정후 커밋시 config 관련 오류 발생하는 경우  
 
 <pre>
@@ -83,7 +82,7 @@ fatal: unable to auto-detect email address (got '*****@*****-HP.(none)')
 </pre>  
 
 ③ config 설정 도중 오류 발생하는 경우, 아래의 파일 삭제필요  
-'C:\Users\계정아이디\.gitconfig.lock'  
+'C:\\Users\\계정아이디\\.gitconfig.lock'  
 <pre>
 (base) D:\PythonEnv\project.git\git_study>git config --global user.email "*******@gmail.com"
 error: could not lock config file C:/Users/*****/.gitconfig: File exists	
