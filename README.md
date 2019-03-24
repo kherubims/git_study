@@ -22,7 +22,6 @@ TIL with Git Study
 # 2019.03.22
 
 - git commit message 수정  
-
 <pre>
 # 마지막 커밋 메세지 수정
 $ git commit --amend -m "[FIX] edit commit message"  
@@ -35,27 +34,25 @@ $ git push -f
 # 2019.03.21
 
 - Ubuntu alias 명령어 환경변수에 등록하기  
-'alias' command로 명령어 등록시 console 창이 꺼지면 등록된 alias가 사라지는것을 bashrc에 등록하여 방지  
-'.bashrc'를 편집기로 편집  
 <pre>
-
+# 'alias' 명령어 등록시 console 창이 꺼지면 등록된 alias가 사라지는 것을 위해 bash 환경변수로 등록
+# '~/.bashrc' 편집
 $ sudo vi ~/.bashrc
-</pre> 
-
-'.bashrc'에 하단 라인 추가
+</pre>   
+  
 <pre>
-e.g)  
+# '~/.bashrc' 하단 라인 추가  
 alias gloga="git log --all --decorate --oneline --graph"
-</pre>
-'.bashrc' 적용
+</pre>  
+  
 <pre>
+# '~/.bashrc' 적용
 $ sudo source ~/.bashrc
 </pre>
 
 # 2019.03.20
 
 - MD 사용하기  
-하단 컨텐츠 참조  
 
 [관련 참조]  <https://gist.github.com/ihoneymon/652be052a0727ad59601>  
 
