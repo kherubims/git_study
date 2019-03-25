@@ -16,7 +16,16 @@ $ git commit -m "Add direcotry './log'"
 // .gitignore 등록 : "!log/.gitkeep"
 $ vi .gitignore
 </pre>
+
+<pre>
+// 이미 git에 push된 ignore 대상 삭제하기(원격만)  
+$ git rm -r --cached .gitkeep
+$ git rm -r --cached *.log
+$ git push origin master  
+</pre>
+
 [관련 참조] <https://gusrb.tistory.com/72>  
+[관련 참조] <>
 
 # 2019.03.24
 - Ubuntu git 사용시 기본 에디터 변경
