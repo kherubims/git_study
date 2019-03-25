@@ -1,6 +1,6 @@
 TIL with Git Study
 =========
-# 2019.03.25
+# 2019.03.25 (월)
 - Git 디렉토리내 파일은 무시하고 디렉토리 구조만 유지하기
 <pre>
 // 빈 디렉토리로 이동
@@ -13,21 +13,20 @@ $ touch .gitkeep
 $ git add .gitkeep
 $ git commit -m "Add direcotry './log'"
 
-// .gitignore 등록 : "!log/.gitkeep"
+// .gitignore에 등록 : "!log/.gitkeep"
 $ vi .gitignore
 </pre>
 
 <pre>
-// 이미 git에 push된 ignore 대상 삭제하기(원격만)  
-$ git rm -r --cached .gitkeep
-$ git rm -r --cached *.log
-$ git push origin master  
+// git cashe 삭제 (stage에서 제거..?)
+$ git rm -r --cached log/.gitkeep
+$ git rm -r --cached log/test.log
 </pre>
 
 [관련 참조] <https://gusrb.tistory.com/72>  
-[관련 참조] <>
+[관련 참조] <https://ipex.tistory.com/entry/gitlab-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9E%AC%EC%83%9D%EC%84%B1-%EC%95%88%ED%95%98%EA%B3%A0-%ED%8F%B4%EB%8D%94-%EB%82%A0%EB%A6%AC%EA%B8%B0-no-reply-git-proejct-and-folder-Delete>
 
-# 2019.03.24
+# 2019.03.24 (일)
 - Ubuntu git 사용시 기본 에디터 변경
 <pre>
 // vi 또는 vim 사용시
@@ -79,7 +78,7 @@ $ git push -f
 $ git commit -amend
 </pre>
 
-# 2019.03.23
+# 2019.03.23 (토)
 
 - NLP 의미역 결정 과정   
 서술어에 속하는 논항들 사이의 의미 관계 결정, DB적재를 위해서는 수집되는 자원과 의미 연관관계 생성을 위해서 서술어(=의미 연관관계 명) 및 논항(해당 자원 개체)에 대해서 사전적 정의가 필요  
@@ -97,7 +96,7 @@ $ git commit -amend
 [관련 참조: Structural SVM 기반 한국어 의미역 결정] <http://kiise.or.kr/e_journal/2015/2/JOK/pdf/10.pdf>  
 
 
-# 2019.03.22
+# 2019.03.22 (금)
 
 - git commit message 수정  
 <pre>
@@ -108,7 +107,7 @@ $ git push -f
 
 [관련 참조] <http://tech.javacafe.io/2018/03/01/how-to-change-git-commit-message/>
 
-# 2019.03.21
+# 2019.03.21 (목)
 
 - Ubuntu alias 명령어 환경변수에 등록하기  
 <pre>
@@ -127,7 +126,7 @@ alias gloga="git log --all --decorate --oneline --graph"
 $ sudo source ~/.bashrc
 </pre>
 
-# 2019.03.20
+# 2019.03.20 (수)
 
 - MD 사용하기  
 [관련 참조]  <https://gist.github.com/ihoneymon/652be052a0727ad59601>  
