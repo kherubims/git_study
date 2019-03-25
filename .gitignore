@@ -354,3 +354,4 @@ GitHub.sublime-settings
 
 # Add Mins
 !log/*.log
+!log/.gitkeep

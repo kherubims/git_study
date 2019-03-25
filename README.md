@@ -16,6 +16,7 @@ $ git commit -m "Add direcotry './log'"
 // .gitignore 등록 : "!log/.gitkeep"
 $ vi .gitignore
 </pre>
+[관련 참조] <https://gusrb.tistory.com/72>  
 
 # 2019.03.24
 - Ubuntu git 사용시 기본 에디터 변경
