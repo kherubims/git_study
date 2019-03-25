@@ -1,5 +1,22 @@
 TIL with Git Study
 =========
+# 2019.03.25
+- Git 디렉토리내 파일은 무시하고 디렉토리 구조만 유지하기
+<pre>
+// 빈 디렉토리로 이동
+$ cd log
+
+// '.gitkeep' 빈 파일 생성
+$ touch .gitkeep
+
+// git add & commit
+$ git add .gitkeep
+$ git commit -m "Add direcotry './log'"
+
+// .gitignore 등록 : "!log/.gitkeep"
+$ vi .gitignore
+</pre>
+
 # 2019.03.24
 - Ubuntu git 사용시 기본 에디터 변경
 <pre>
