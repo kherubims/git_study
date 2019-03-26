@@ -1,5 +1,8 @@
 TIL with Git Study
 =========
+# 2019.03.26 (화)
+- github editor 이용한 READMD.md 수정
+
 # 2019.03.25 (월)
 - Git 디렉토리내 파일은 무시하고 디렉토리 구조만 유지하기
 <pre>
